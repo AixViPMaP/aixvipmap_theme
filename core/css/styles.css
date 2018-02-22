@@ -1,0 +1,75 @@
+/**
+ * @author Lukas Koschmieder <lukas.koschmieder@rwth-aachen.de>
+ * @copyright Copyright (c) 2016-18 RWTH Aachen University
+ * @license AGPL-3.0
+ */
+
+body {
+  font-family: Arial, sans-serif;
+}
+#body-user #header,
+#body-settings #header,
+#body-public #header {
+  height: 45px;
+  background-color: #00549F;
+}
+#body-login {
+  background: #00549F;
+}
+#header .logo {
+  background-image: url('../img/logo.svg');
+  width: 250px;
+  height: 200px;
+}
+#owncloud {
+  padding: 0;
+  padding-left: 10px;
+}
+#header .logo-icon {
+	padding-left: 50px;
+	background-image: url('../img/logo-icon.svg');
+	height: inherit;
+	background-size: unset;
+	padding-top:7px;
+	font-family:Arial, sans-serif;
+
+}
+#body-login .wrapper {
+    margin: 0 auto -70px;
+}
+#notification {
+    background-color: #F6A800;
+    opacity: 1;
+    border-radius: 0px;
+}
+.primary,
+input[type="submit"].primary,
+input[type="button"].primary,
+button.primary,
+.button.primary,
+.primary:active,
+input[type="submit"].primary:active,
+input[type="button"].primary:active,
+button.primary:active,
+.button.primary:active {
+    border-color: #00549F;
+    background-color: #00549F;
+}
+.primary:hover,
+input[type="submit"].primary:hover,
+input[type="button"].primary:hover,
+button.primary:hover,
+.button.primary:hover,
+.primary:focus,
+input[type="submit"].primary:focus,
+input[type="button"].primary:focus,
+button.primary:focus,
+.button.primary:focus {
+    background-color: #00549F;
+}
+.primary:active, input[type="submit"].primary:active, input[type="button"].primary:active, button.primary:active, .button.primary:active,
+.primary:disabled, input[type="submit"].primary:disabled, input[type="button"].primary:disabled, button.primary:disabled, .button.primary:disabled,
+.primary:disabled:hover, input[type="submit"].primary:disabled:hover, input[type="button"].primary:disabled:hover, button.primary:disabled:hover, .button.primary:disabled:hover,
+.primary:disabled:focus, input[type="submit"].primary:disabled:focus, input[type="button"].primary:disabled:focus, button.primary:disabled:focus, .button.primary:disabled:focus {
+    background-color: #00549F;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<info>
+  <id>aixvipmap_theme</id>
+  <name>AixViPMaP Theme</name>
+  <description>Official AixViPMaP theme</description>
+  <author>Lukas Koschmieder</author>
+  <version>10.0.0</version>
+  <types>
+    <theme/>
+  </types>
+  <dependencies>
+    <owncloud min-version="10" max-version="10" />
+  </dependencies>
+  <repository type="git">https://github.com/AixViPMaP/aixvipmap_theme.git</repository>
+</info>
