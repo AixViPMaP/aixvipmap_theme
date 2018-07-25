@@ -26,9 +26,9 @@ body {
   padding-left: 10px;
 }
 #header .logo-icon {
-	padding-left: 50px;
 	background-image: url('../img/logo-icon.svg');
 	height: inherit;
+  width: 150px;
 	background-size: unset;
 	padding-top:7px;
 	font-family:Arial, sans-serif;

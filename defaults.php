@@ -65,21 +65,21 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'AixViPMaP Web';
+		return 'AixViPMaP';
 	}
 	/**
 	 * Returns the short name of the software
 	 * @return string title
 	 */
 	public function getName() {
-		return 'AixViPMaP';
+		return '';
 	}
 	/**
 	 * Returns the short name of the software containing HTML strings
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return 'AixViPMaP Web';
+		return 'AixViPMaP';
 	}
 	/**
 	 * Returns entity (e.g. company name) - used for footer, copyright
@@ -116,7 +116,7 @@ class OC_Theme {
 	 */
 	public function getLongFooter() {
 		$footer = '© 2016-18 <a href="' . $this->getBaseUrl() . '" target="_blank\">'.$this->getEntity() . '</a>' .
-		          '<br><a href="http://github.com/AixViPMaP" target="_blank\">GitHub</a>';
+		          '<br><a href="http://AixViPMaP.de" target="_blank\">AixViPMaP.de</a>';
 		return $footer;
 	}
 	public function buildDocLinkToKey($key) {
